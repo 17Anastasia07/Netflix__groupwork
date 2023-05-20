@@ -214,7 +214,10 @@ margin-left: 8px;
 
 
 @media (max-width: 767px){ 
-  
+  .A_background {
+    background-size: cover;
+    background-position: 100%;
+  }
   .info__topic {
     margin-top: 100px;
   }
