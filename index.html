@@ -10,7 +10,55 @@
 </head>
 <body>
     <div class="A_background">
-        <header class="header">   
+        <header class="header"> 
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p class="modal-header__topic">Увійти</p>
+                  <div class="toast-header" data-bs-theme="dark">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="form__text" for="floatingInput">Адреса електронної пошти</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label class="form__text" for="floatingPassword">Пароль</label>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn inside btn-primary">Увійти</button>
+                  </div>
+                  <div class="form-check">
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Запам'ятати мене
+                      </label>
+                      <div class="form-near__check"><p>Потрібна допомога?</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="all_reister">
+                  <div class="before__reister"><p>Уперше на Netflix?</p></div>
+                  <div class="reister"><p>Зареєструватися.</p></div>
+                </div>
+                <div class="under__reister"><p>Щоб переконатися, що ви не бот, сторінка захищена системою Google reCAPTCHA. </p></div>
+
+                <a class="btn more btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1"  aria-expanded="false" aria-controls="multiCollapseExample1"><span>Докладніше.</span></a>
+  <div class="collapse multi-collapse" id="multiCollapseExample1">
+  <div class="card under__reister card-body">Інформація, яку збирає система Google reCAPTCHA, регулюється <a href="https://policies.google.com/privacy"> Політикою конфіденційності</a> й <a href="https://policies.google.com/privacy">Умовами використання</a> Google. Ці дані використовуються, щоб надавати, підтримувати й покращувати сервіс reCAPTCHA, а також у цілях загальної безпеки (Google не застосовуватиме їх для персоналізації реклами).</div>
+  </div>
+                <div class="under__reister"><p></p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
             <div class="header_logo">
                 <img class="logo" src="./img/logo.png" width="148px" alt="" />
             </div>
@@ -32,29 +80,13 @@
             </li>
             <li class="header__menu-items">
   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn come_inside btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   Увійти
 </button>
 
 <!-- Modal -->
 
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
+
             </li>
         </ul>
     </header>
