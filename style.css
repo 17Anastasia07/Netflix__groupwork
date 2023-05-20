@@ -32,7 +32,7 @@ box-shadow:
 }
 .header_burger {
   display: none;
-  
+  z-index: 10;
 }
 .btn-secondary {
   background-color: #000000;
@@ -376,14 +376,35 @@ span:hover {
     position: relative;
     top: 10px;
 }
+.dropdown {
+  width: 200px;
+}
+
+.come_inside {
+  width: 200px;
+  margin-left: 35px;
+}
+.offcanvas {
+  background-color: #000;
+}
+.fixed-top {
+  --bs-bg-opacity: 1;
+}
+.navbar-toggler {
+  background-color: red;
+}
 .header {
     justify-content: space-between;
     margin: 0 20px;
 }
 .header_logo {
     margin-left: 25px;
+    display: none;
 }
-.burger_line {
+.header__menu {
+  display: none;
+}
+/* .burger_line {
     position: absolute;
     content: '';
     top: 30px;
@@ -410,9 +431,9 @@ span:hover {
     bottom: 15px;
     position: absolute;
     background-color: #ed1d1d;
-}
+} */
 
-.form-control {
+.email_ouside {
   max-width: 150px;
 } 
 .email__text {
