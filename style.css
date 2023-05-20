@@ -376,13 +376,54 @@ span:hover {
     position: relative;
     top: 10px;
 }
+.btn-close {
+
+}
+.modal-header {
+  width: 250px;
+}
 .dropdown {
   width: 200px;
 }
-
+.modal {
+  width: 300px;
+}
+.email_inside {
+  width: 200px;
+  margin: 0;
+} 
+.form__text {
+  font-size: 13px;
+  margin-left: 5px;
+}
+.inside {
+  width: 200px;
+}
 .come_inside {
   width: 200px;
   margin-left: 35px;
+}
+.form-check {
+  flex-direction: column;
+}
+.form-near__check {
+margin-left: -20px;
+margin-top: 10px;
+}
+.form-check-label {
+  margin-top: -18px;
+}
+.all_reister {
+  margin-top: -20px;
+}
+.under__reister {
+  width: 200px;
+}
+.before__reister {
+  font-size: 12px;
+}
+.reister {
+    font-size: 12px;
 }
 .offcanvas {
   background-color: #000;
